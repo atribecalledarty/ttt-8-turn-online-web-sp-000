@@ -32,7 +32,7 @@ def move (board, index, token = "X")
   board[index] = token
 end
 
-=begin
+
 def turn (board)
   index = 0
   until index.between?(1, 9)
@@ -41,4 +41,3 @@ def turn (board)
     index = input_to_index(num)
   end
 end
-=end
